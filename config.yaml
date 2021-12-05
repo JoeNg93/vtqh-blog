@@ -1,0 +1,44 @@
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'My New Hugo Site'
+theme: 'hugo-theme-cleanwhite'
+paginate: 5
+
+params:
+  header_image: ''
+  slogan: "I'm Harley haha"
+
+  # SEO setup
+  SEOTitle: ''
+  description: ''
+  keyword: ''
+
+  # 404 Page
+  image_404: ''
+  title_404: ''
+
+  omit_categories: false # Whether to omit categories in top nav bar
+
+  # Sidebar settings
+  sidebar_about_description: ''
+  sidebar_avatar: '' # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  # Feature tags in the sidebar settings
+  featured_tags: true
+  featured_condition_size: 1
+
+  # Visiblity of some sections in the sidebar
+  friends: false
+  bookmarks: false
+  about_me: true
+
+  social:
+    rss: true
+    email: 'youremail@gmail.com'
+    instagram: ''
+
+  addtional_menus:
+    - title: 'Foo'
+      href: '/foo'
+    - title: 'Bar'
+      href: '/bar'
