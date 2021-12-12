@@ -4,6 +4,6 @@
   font-family: 'Domine', serif;
 }
 
-.post-container {
+.post-container > * {
   font-family: 'Inter', sans-serif;
 }
