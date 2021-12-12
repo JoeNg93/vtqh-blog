@@ -42,3 +42,6 @@ params:
       href: '/foo'
     - title: 'Bar'
       href: '/bar'
+
+  custom_css:
+    - 'css/main.css'
