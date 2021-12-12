@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Inter:wght@300;400;700&display=swap');
+
+.post-heading > * {
+  font-family: 'Domine', serif;
+}
+
+.post-container > * {
+  font-family: 'Inter', sans-serif;
+}
